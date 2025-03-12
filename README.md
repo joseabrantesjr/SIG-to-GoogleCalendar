@@ -27,9 +27,25 @@ Você vai precisar fornecer algumas informações para rodar o script
 * Start Date - A partir de qual dia você quer replicar seus horários
 * End Date - Até que dia você quer replicar seus horários
 
-Depois disso, um arquivo .csv vai ser gerado. Vá em "calendar.google.com > Importar > Selecionar um arquivo do seu computador" e escolha o arquivo .csv gerado.
+
+Depois disso, o script irá gerar dois arquivos:
+
+1. **.csv** - Para importar para o Google Calendar.
+2. **.ics** - Para importar para o Calendar ou outros calendários compatíveis com o formato iCalendar (MacOS / IOS).
 
 É fortemente recomendado criar uma nova agenda para importar o arquivo .csv
+
+#### Como importar:
+
+- **Google Calendar**:
+  1. Acesse "calendar.google.com".
+  2. Vá para "Importar > Selecionar um arquivo do seu computador".
+  3. Escolha o arquivo `.csv` gerado.
+  4. É fortemente recomendado criar uma nova agenda para importar o arquivo `.csv`.
+
+- **Calendar**:
+  1. Abra o arquivo `.ics` diretamente no seu dispositivo MacOS / IOS.
+  2. O evento será automaticamente adicionado ao seu calendário.
 
 
 ### Contribuindo
