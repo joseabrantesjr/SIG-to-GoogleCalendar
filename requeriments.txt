@@ -1,3 +1,4 @@
 beautifulsoup4
 numpy
 urllib3
+icalendar
